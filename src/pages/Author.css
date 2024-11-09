@@ -1,0 +1,139 @@
+.authors {
+  padding: 60px 0;
+  background-color: #f3f6fb;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.authors h2 {
+  font-size: 2.8rem;
+  margin-bottom: 40px;
+  color: #6c5ce7; 
+  font-weight: 700;
+}
+
+.author-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  animation: slideIn 1.5s ease-in-out;
+}
+
+.author-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  width: 280px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  position: relative;
+  z-index: 1;
+  background-color: #fcfcfc; 
+}
+
+.author-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  background-color: #cebfff;
+}
+
+.author-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 4px solid #6c5ce7; 
+}
+
+.author-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #6c5ce7;
+  font-weight: 600;
+}
+
+.author-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.author-card .cta-btn {
+  margin-top: 15px;
+  padding: 12px 24px;
+  background-color: #6c5ce7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.author-card .cta-btn:hover {
+  background-color: #5b4fd1;
+}
+
+.join-team {
+  padding: 60px 20px;
+  background-color: #fff;
+  margin-top: 40px;
+  text-align: center;
+  border-top: 3px solid #6c5ce7;
+  color: #333;
+}
+
+.join-team h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ff5b5b;
+  font-weight: 700;
+}
+
+.join-team p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.join-team .cta-btn {
+  padding: 12px 30px;
+  background-color: #28a745;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.join-team .cta-btn:hover {
+  background-color: #218838;
+}
+
+/* Animation for author cards*/
+@keyframes slideIn {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .author-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .author-card {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+}

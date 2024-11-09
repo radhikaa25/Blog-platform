@@ -1,0 +1,96 @@
+.subscribe-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subscribe-container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .subscribe-container p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input {
+    width: 80%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .subscribe-btn {
+    padding: 0.8rem 2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .success-message h3 {
+    font-size: 1.8rem;
+    color: #28a745;
+  }
+  
+  .success-message p {
+    font-size: 1.1rem;
+    color: #6c757d;
+  }
+  
+  .subscribe-benefits {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .subscribe-benefits h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .subscribe-benefits ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .subscribe-benefits li {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    text-align: left;
+  }
+  

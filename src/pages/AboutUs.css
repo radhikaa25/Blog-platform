@@ -1,0 +1,184 @@
+.about-us-container {
+    font-family: 'Arial', sans-serif;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .about-us-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    background-color: #f1e6ff; 
+    padding: 40px;
+    border-radius: 10px;
+    animation: fadeIn 2s ease-in;
+  }
+  
+  .about-content {
+    width: 60%;
+    padding-right: 20px;
+  }
+  
+  .about-content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .about-content p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 20px;
+  }
+  
+  .about-image {
+    width: 35%;
+    height: 300px;
+    background-color: #d8c6e4; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .background-overlay {
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  .background-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .stats-section {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .stats-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .stat-item {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .stat-number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff7f50;
+    animation: slideIn 1s ease-out;
+  }
+  
+  .stat-label {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .join-team-section {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+  }
+  
+  .join-team-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .join-team-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .join-button {
+    background-color: #ff7f50;
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .join-button:hover {
+    background-color: #e76c40;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about-us-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-content {
+      width: 100%;
+      padding-right: 0;
+    }
+  
+    .about-image {
+      width: 100%;
+      padding-left: 0;
+      margin-top: 20px;
+      height: auto;
+    }
+  
+    .stats-container {
+      flex-direction: column;
+    }
+  
+    .stat-item {
+      width: 80%;
+      margin-bottom: 30px;
+    }
+  
+    .join-button {
+      font-size: 1rem;
+      padding: 10px 20px;
+    }
+  }
+  
